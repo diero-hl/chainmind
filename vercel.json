@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/agent/recover", "destination": "/api/agent/recover" },
+    { "source": "/api/agent/register", "destination": "/api/agent/register" },
+    { "source": "/api/agent/status", "destination": "/api/agent/status" },
+    { "source": "/api/agent", "destination": "/api/agent" },
+    { "source": "/api/tokens", "destination": "/api/tokens" },
+    { "source": "/api/wallet/weth", "destination": "/api/wallet/weth" },
+    { "source": "/api/wallet", "destination": "/api/wallet" },
+    { "source": "/api/trade/buy", "destination": "/api/trade/buy" },
+    { "source": "/api/trade/sell", "destination": "/api/trade/sell" },
+    { "source": "/api/trade/unwrap", "destination": "/api/trade/unwrap" },
+    { "source": "/api/fees", "destination": "/api/fees" },
+    { "source": "/api/chat", "destination": "/api/chat" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
