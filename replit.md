@@ -13,7 +13,7 @@ ChainMind is an AI-powered chat interface for launching tokens on Base blockchai
 
 ## User Preferences
 
-Preferred communication style: Casual Filipino/English mix (Taglish)
+None specified.
 
 ## System Architecture
 

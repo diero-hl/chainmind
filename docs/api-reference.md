@@ -5,7 +5,7 @@ ChainMind exposes a REST API for programmatic access.
 ## Base URL
 
 ```
-https://your-chainmind-deployment.replit.app/api
+https://www.chainmind.app/api
 ```
 
 ## Authentication
