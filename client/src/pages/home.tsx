@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
-import { Send, Rocket, Wallet, ExternalLink, User, ChevronDown, ChevronUp, Coins, Menu, X, MessageSquare } from "lucide-react";
+import { Send, Rocket, Wallet, ExternalLink, User, ChevronDown, ChevronUp, Coins, Menu, X, MessageSquare, BookOpen } from "lucide-react";
 import mascotImage from "@/assets/images/lobstr-mascot.png";
 
 interface WalletInfo {
@@ -702,6 +702,10 @@ export default function Home() {
               <a href="/chat" className="flex items-center gap-3 p-2 rounded-lg hover-elevate" onClick={() => setMenuOpen(false)}>
                 <MessageSquare className="w-4 h-4" />
                 <span>Launch Token</span>
+              </a>
+              <a href="https://chainmind-3.gitbook.io/chainmind-docs/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-2 rounded-lg hover-elevate">
+                <BookOpen className="w-4 h-4" />
+                <span>Docs</span>
               </a>
               {agent ? (
                 <div className="flex items-center gap-3 p-2 text-muted-foreground">
